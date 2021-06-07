@@ -75,7 +75,7 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'Please enter instructions to install the program.',
+        message: 'Please enter instructions to install the program:',
         validate: (value) => {
             if (value) { 
                 return true 
@@ -95,11 +95,24 @@ const questions = [
                 return 'Please enter project usage information.' }
         },
     },
+    // Technologies
+    {
+        type: 'checkbox',
+        name: 'technologies',
+        message: 'Please select the technologies that were used in this project:',
+        choices:['Angular.js','Backbone.js','Bootstrap','CSS','Django','Ember.js',"Foundation",'HTML','Go','Java','Javascript','JQuery','MongoDb','MySQL','Node.js','PHP','Python','Ruby','Underscore'],
+        validate: (value) => {
+            if (value) { 
+                return true 
+            } else { 
+                return 'Please enter project usage information.' }
+        },
+    }
     // Project Licenses
     {
         type: 'list',
         name: 'license',
-        message: 'Please choose the licenses for your project?',
+        message: 'Please select the licenses for your project?',
         choices: ['Apache License 2.0','Boost Software License 1.0','GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'MIT License','Mozilla Public License 2.0'],
         validate: (value) => {
             if (value) { 

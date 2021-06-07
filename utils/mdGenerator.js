@@ -34,10 +34,7 @@ function mdGenerator(answer){
     ${answer.usage}
     
     ## Technologies
-    - CSS
-    - HTML
-    - Javascript
-    - Node.js
+    - ${answer.technologies}
 
     ## Links
     [Github Repository URL](https://github.com/${answer.github}/${answer.repository})
