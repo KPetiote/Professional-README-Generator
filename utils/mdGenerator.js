@@ -48,7 +48,7 @@ function mdGenerator(answer){
     ## Questions
     Please feel free to contact me with any questions:
     [Email](mailto:${answer.email})
-    [Github](${answer.github})
+    [Github](https://github.com/${answer.github})
 
     ## License
     ![badge](https://img.shields.io/badge/license-${answer.license}-yellow)
