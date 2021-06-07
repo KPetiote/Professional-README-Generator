@@ -4,6 +4,8 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
+const emailValidator = require('email-validator');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // ARRAY OF QUESTIONS
 // ---------------------------------------------------------------------------
@@ -107,3 +109,27 @@ const questions = [
         },
     },
 ]
+
+// FUNCTIONS
+// ---------------------------------------------------------------------------
+
+// Function to write the READ-ME file.
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function (err) {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log('READ-ME file was successfully generated!');
+        }
+    })
+};
+
+// Function to initialize program.
+function init() {
+    inquirer.prompt(questions).then(function (answers) {
+        writeToFile("READ-ME.md", generateMarkdown(answers));
+    })
+};
+
+// Function call to initialize program.
+init();
