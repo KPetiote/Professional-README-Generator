@@ -5,7 +5,7 @@ const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
 const emailValidator = require('email-validator');
-const generateMarkdown = require('./utils/generateMarkdown');
+const mdGenerator = require('./utils/mdGenerator');
 
 // ARRAY OF QUESTIONS
 // ---------------------------------------------------------------------------
@@ -108,6 +108,18 @@ const questions = [
                 return 'Please choose a license.' }
         },
     },
+    // Contributions
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'Did you have anyone contribute to your project?',
+        validate: (value) => {
+            if (value) { 
+                return true 
+            } else { 
+                return 'Please enter any contributors to the project.' }
+        },
+    },
 ]
 
 // FUNCTIONS
@@ -126,8 +138,8 @@ function writeToFile(fileName, data) {
 
 // Function to initialize program.
 function init() {
-    inquirer.prompt(questions).then(function (answers) {
-        writeToFile("READ-ME.md", generateMarkdown(answers));
+    inquirer.prompt(questions).then(function (answer) {
+        writeToFile("READ-ME.md", mdGenerator(answer));
     })
 };
 
