@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/KPetiote/Professional-REAME-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.0.0"
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.0.0",
+    "util": "^0.12.4"
   }
 }
