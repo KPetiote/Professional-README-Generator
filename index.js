@@ -4,7 +4,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const emailValidator = require('email-validator');
-const mdGenerator = require('./utils/mdGenerator');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // ARRAY OF QUESTIONS
 // ---------------------------------------------------------------------------
@@ -112,7 +112,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please select the licenses for your project?',
-        choices: ['Apache License 2.0','Boost Software License 1.0','GNU GPLv3', 'MIT License','Mozilla Public License 2.0'],
+        choices: ['apache-2.0', 'BSD 3-Clause "New" or "Revised"' ,'GNU General Public License v3.0', 'MIT'],
         validate: (value) => {
             if (value) { 
                 return true 
@@ -151,7 +151,7 @@ function writeToFile(fileName, data) {
 // Function to initialize program.
 function init() {
     inquirer.prompt(questions).then(function (answer) {
-        writeToFile("READ-ME.md", mdGenerator(answer));
+        writeToFile("README.md", generateMarkdown(answer));
     })
 };
 
