@@ -1,4 +1,4 @@
-# Professional-REAME-Generator
+# Professional-README-Generator
 ## Table of Contents
 * [Top Language](#top-language)
 * [Description](#description)
@@ -32,14 +32,15 @@ Please install Node.js, "npm install", then "npm start"
 
 ## Links
 [Github Repository URL](https://github.com/Kpetiote/Professional-README-Generator)
+[Video Presentation](https://drive.google.com/file/d/1q8bDL_TvSdVTwsiBqzrNNPXaANLVSjVW/view?usp=sharing)
 
 ## Contribution
 None
 
 ## Questions
 Please feel free to contact me with any questions:
-[Email](mailto:kenneth.petiote@gmail.com)
-[Github](https://github.com/Kpetiote)
+- [Email](mailto:kenneth.petiote@gmail.com)
+- [Github](https://github.com/Kpetiote)
 
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-yellow)
