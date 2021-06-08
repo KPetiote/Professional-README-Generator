@@ -42,6 +42,6 @@ Please feel free to contact me with any questions:
 [Github](https://github.com/Kpetiote)
 
 ## License
-![badge](https://img.shields.io/badge/license-MIT License-yellow)
+![badge](https://img.shields.io/badge/license-MIT-yellow)
 <br />
 Licensed under the MIT License license. 
