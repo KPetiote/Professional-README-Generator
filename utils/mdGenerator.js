@@ -51,7 +51,6 @@ function mdGenerator(answer){
     ![badge](https://img.shields.io/badge/license-${answer.license}-yellow)
     <br />
     Licensed under the ${answer.license} license. 
-
     `
 }
 module.exports = mdGenerator;
