@@ -17,13 +17,12 @@
 ## Description
 The purpose of this application is to allow users to create a professional README file.\
 Upon first loading the program, the end-user is prompted to input information.\
-Once all the information has been filed out, a README file is generated for the user.\
+Once all the information has been filed out, a README file is generated for the user.
 
 ## Demo
 ![Alt text](./assets/images/Professional-README-Generator.gif "Professional-README-Generator")
 
 ## Program Installation
-Please clone my repository, then use "npm start" to initiate the program after browsing to the folder in terminal or gitbash
 To use this program we will need to install Node.js\
 Please use the link below to download a suitable version for your OS:
 
