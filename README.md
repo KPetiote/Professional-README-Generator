@@ -1,9 +1,8 @@
 # Professional-README-Generator
 
-<p align="center">
 ![Top Language](https://img.shields.io/github/languages/top/Kpetiote/Professional-README-Generator)
 ![Repository Size](https://img.shields.io/github/repo-size/Kpetiote/Professional-README-Generator)
-</p>
+
 
 ## Table of Contents
 * [Description](#description)
