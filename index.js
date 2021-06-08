@@ -2,7 +2,6 @@
 // ---------------------------------------------------------------------------
 
 const fs = require("fs");
-const util = require("util");
 const inquirer = require("inquirer");
 const emailValidator = require('email-validator');
 const mdGenerator = require('./utils/mdGenerator');
