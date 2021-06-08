@@ -1,15 +1,15 @@
 # Professional-REAME-Generator
 ## Table of Contents
-    * [Top Language](#top-language)
-    * [Description](#description)
-    * [Demo](#demo)
-    * [Program Installation](#program-installation)
-    * [Program Usage](#program-usage)
-    * [Technologies](#technologies)
-    * [Links](#links)
-    * [Contribution](#contribution)
-    * [Questions](#questions)
-    * [License](#license)
+* [Top Language](#top-language)
+* [Description](#description)
+* [Demo](#demo)
+* [Program Installation](#program-installation)
+* [Program Usage](#program-usage)
+* [Technologies](#technologies)
+* [Links](#links)
+* [Contribution](#contribution)
+* [Questions](#questions)
+* [License](#license)
 
 ## Top Language
 ![Top Language](https://img.shields.io/github/languages/top/Kpetiote/Professional-README-Generator)
@@ -18,7 +18,7 @@
 The purpose of this program is to generate a professional README.
 
 ## Demo
-![Alt text](./assets/images/Professional-README-Generator-website.gif "Professional-README-Generator")
+![Alt text](./assets/images/Professional-README-Generator.gif "Professional-README-Generator")
 
 ## Program Installation
 Please clone my repository, then use "npm start" to initiate the program after browsing to the folder in terminal or gitbash
@@ -45,4 +45,3 @@ Please feel free to contact me with any questions:
 ![badge](https://img.shields.io/badge/license-MIT License-yellow)
 <br />
 Licensed under the MIT License license. 
-    

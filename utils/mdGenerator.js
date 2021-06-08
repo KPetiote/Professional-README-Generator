@@ -4,53 +4,53 @@
 // Function to generate markdown for READ-ME
 function mdGenerator(answer){
     return `
-    # ${answer.title}
+# ${answer.title}
 
-    ## Table of Contents
-    * [Top Language](#top-language)
-    * [Description](#description)
-    * [Demo](#demo)
-    * [Program Installation](#program-installation)
-    * [Program Usage](#program-usage)
-    * [Technologies](#technologies)
-    * [Links](#links)
-    * [Contribution](#contribution)
-    * [Questions](#questions)
-    * [License](#license)
+## Table of Contents
+* [Top Language](#top-language)
+* [Description](#description)
+* [Demo](#demo)
+* [Program Installation](#program-installation)
+* [Program Usage](#program-usage)
+* [Technologies](#technologies)
+* [Links](#links)
+* [Contribution](#contribution)
+* [Questions](#questions)
+* [License](#license)
 
-    ## Top Language
-    ![Top Language](https://img.shields.io/github/languages/top/${answer.github}/${answer.repository})
+## Top Language
+![Top Language](https://img.shields.io/github/languages/top/${answer.github}/${answer.repository})
 
-    ## Description
-    ${answer.description}
+## Description
+${answer.description}
 
-    ## Demo
-    ![Alt text](./assets/images/${answer.repository}-website.gif "${answer.repository}")
-    
-    ## Program Installation
-    ${answer.installation}
+## Demo
+![Alt text](./assets/images/${answer.repository}-website.gif "${answer.repository}")
 
-    ## Program Usage
-    ${answer.usage}
-    
-    ## Technologies
-    - ${answer.technologies}
+## Program Installation
+${answer.installation}
 
-    ## Links
-    [Github Repository URL](https://github.com/${answer.github}/${answer.repository})
-    
-    ## Contribution
-    ${answer.contribution}
+## Program Usage
+${answer.usage}
 
-    ## Questions
-    Please feel free to contact me with any questions:
-    [Email](mailto:${answer.email})
-    [Github](https://github.com/${answer.github})
+## Technologies
+- ${answer.technologies}
 
-    ## License
-    ![badge](https://img.shields.io/badge/license-${answer.license}-yellow)
-    <br />
-    Licensed under the ${answer.license} license. 
+## Links
+[Github Repository URL](https://github.com/${answer.github}/${answer.repository})
+
+## Contribution
+${answer.contribution}
+
+## Questions
+Please feel free to contact me with any questions:
+[Email](mailto:${answer.email})
+[Github](https://github.com/${answer.github})
+
+## License
+![badge](https://img.shields.io/badge/license-${answer.license}-yellow)
+<br />
+Licensed under the ${answer.license} license. 
     `
 }
 module.exports = mdGenerator;
