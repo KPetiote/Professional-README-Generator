@@ -1,6 +1,9 @@
 # Professional-README-Generator
+
+![Top Language](https://img.shields.io/github/languages/top/Kpetiote/Professional-README-Generator)
+![Repository Size](https://img.shields.io/github/repo-size/Kpetiote/Professional-README-Generator)
+
 ## Table of Contents
-* [Top Language](#top-language)
 * [Description](#description)
 * [Demo](#demo)
 * [Program Installation](#program-installation)
@@ -10,9 +13,6 @@
 * [Contribution](#contribution)
 * [Questions](#questions)
 * [License](#license)
-
-## Top Language
-![Top Language](https://img.shields.io/github/languages/top/Kpetiote/Professional-README-Generator)
 
 ## Description
 The purpose of this application is to allow users to create a professional README file.\
