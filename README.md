@@ -15,24 +15,47 @@
 ![Top Language](https://img.shields.io/github/languages/top/Kpetiote/Professional-README-Generator)
 
 ## Description
-The purpose of this program is to generate a professional README.
+The purpose of this application is to allow users to create a professional README file.\
+Upon first loading the program, the end-user is prompted to input information.\
+Once all the information has been filed out, a README file is generated for the user.\
 
 ## Demo
 ![Alt text](./assets/images/Professional-README-Generator.gif "Professional-README-Generator")
 
 ## Program Installation
 Please clone my repository, then use "npm start" to initiate the program after browsing to the folder in terminal or gitbash
+To use this program we will need to install Node.js\
+Please use the link below to download a suitable version for your OS:
+
+[Node.js Downloads](https://nodejs.org/en/download/)
+
+Once installed we can use your command-line interface\
+(Git/Terminal - MacOS, Linux & Ubuntu, CMD/Git - Windows)\
+to run browse to the main repository, then run the following command:
+
+```bash
+npm install
+```
+
+The package.json will install the necessary dependencies for the program to run.
 
 ## Program Usage
-Please install Node.js, "npm install", then "npm start"
+After using the program installation instructions, we can then start using the program\
+Remaining in the terminal, we can use the following command to run the application:
+
+```bash
+npm run start
+```
+
+The program will then initialize and function as shown in the demo.
 
 ## Technologies
 - Javascript
 - Node.js
 
 ## Links
-[Github Repository URL](https://github.com/Kpetiote/Professional-README-Generator)
-[Video Presentation](https://drive.google.com/file/d/1q8bDL_TvSdVTwsiBqzrNNPXaANLVSjVW/view?usp=sharing)
+- [Github Repository URL](https://github.com/Kpetiote/Professional-README-Generator)
+- [Video Presentation](https://drive.google.com/file/d/1q8bDL_TvSdVTwsiBqzrNNPXaANLVSjVW/view?usp=sharing)
 
 ## Contribution
 None
