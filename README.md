@@ -1,10 +1,10 @@
 # Professional-README-Generator
-<p align="center">
-    <img src=https://img.shields.io/github/languages/top/Kpetiote/Professional-README-Generator"/>
-    <img src=https://img.shields.io/github/repo-size/Kpetiote/Professional-README-Generator"/>
-    <img src=https://img.shields.io/github/last-commit/Kpetiote/Professional-README-Generator"/>
-    <img src=https://img.shields.io/github/issues/Kpetiote/Professional-README-Generator"/>
-</p>
+
+![Top Language](https://img.shields.io/github/languages/top/Kpetiote/Professional-README-Generator)
+![Repository Size](https://img.shields.io/github/repo-size/Kpetiote/Professional-README-Generator)
+![Last Commit](https://img.shields.io/github/last-commit/Kpetiote/Professional-README-Generator)
+![Issues](https://img.shields.io/github/issues/Kpetiote/Professional-README-Generator)
+
 
 ## Table of Contents
 * [Description](#description)
